@@ -1,54 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>html-22/11</title>
+    <title>html-23/11</title>
 </head>
+
+<style>
+    td{
+        text-align: center;
+    }
+</style>
 
 <body>
 
-    <h1>
-        My blog about my life
-    </h1>
+    <a href="https://www.w3schools.com/" target="_blank">Go To w3schools</a>
+    <br>
+    <a href="index.html" target="_blank">Go To Page 2</a>
+    <br>
+    <a href="mailto:#">Contact Us</a>
 
 
-    <h2>Menu</h2>
-    <ul>
-        <li><a href="#">Today</a></li>
-        <li><a href="#">Yesterday</a></li>
-        <li><a href="#">Last week</a></li>
-        <li><a href="#">Archives</a></li>
-    </ul>
+    <br><br><br>
+
+    <table border="1" style="width: 50%;">
+        <tr>
+            <td colspan="6">*</td>
+        </tr>
+        <tr>
+            <td rowspan="4">*</td>
+            <td colspan="1">*</td>
+            <td colspan="1">*</td>
+            <td colspan="1">*</td>
+            <td colspan="1">*</td>
+            <td colspan="1">*</td>
+        </tr>
+
+        <tr>
+            <td colspan="1">*</td>
+            <td colspan="3" rowspan="2">*</td>
+            <td colspan="1">*</td>
+        </tr>
+
+        <tr>
+            <td colspan="1">*</td>
+            <td colspan="1">*</td>
+        </tr>
+
+        <tr>
+            <td colspan="1">*</td>
+            <td colspan="1">*</td>
+            <td colspan="1">*</td>
+            <td colspan="1">*</td>
+            <td colspan="1">*</td>
+        </tr>
+
+        <tr>
+            <td colspan="6">*</td>
+        </tr>
+        
+    </table>
+
+    <br><br><br>
+
+    <form style="width: 50%;">
+
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <br>
+
+            <label>First name :</label>
+            <input type="text">
+
+            <br><br>
+
+            <label>Last name :</label>
+            <input type="text">
+
+            <br><br>
+
+            <label>Gender :</label>
+            <input type="radio" value="male" name="gender">
+            <label>Male</label>
+            <input type="radio" value="female" name="gender">
+            <label>female</label>
+
+            <br><br>
+
+            <label>Email :</label>
+            <input type="email">
+
+            <br><br>
+
+            <label>Date of Birth :</label>
+            <input type="date">
+
+            <br><br>
+
+            <label>Address :</label>
+            <br>
+            <textarea cols="30" rows="4"></textarea>
+
+            <br><br>
+
+            <input type="submit">
+
+        </fieldset>
+        
+    </form>
     
-    <h2>Meeting with supervisor</h2>
-    <p>14 Des 2011.</p>
-    <p>Today I went to the university by bus.</p>
-    <p>I had a met with my PhD supervisor.</p>
-
-    <h2>New car !!!</h2>
-    <p>12 Des 2011.</p>
-    <p>Today I bought my new car. It's a Honda Accord and it's really nice.</p>
-    <p>I met some friends at a pub.</p>
-
-    <h2>Visit my parents</h2>
-    <p>10 Des 2011.</p>
-    <p>Tried to contact my PhD supervisor. He was out of his office.</p>
-    <p>I Visited my parents and we had a nice dinner together.</p>
-    
-
-    <h2>Last post</h2>
-    <ul>
-        <li><a href="#">Meeting with supervisor</a></li>
-        <li><a href="#">New car !!!</a></li>
-        <li><a href="#">Visit my parents</a></li>
-    </ul>
-
-
-
-
-
-
-
-
 </body>
 </html>
